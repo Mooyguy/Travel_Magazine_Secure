@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Magazine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <h1 class="logo">Wanderlust</h1>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+            Menu <span aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+            <a href="index.html">Home</a>
+            <a href="article-alps.html">Alps</a>
+            <a href="article-nigeria.html">Nigeria</a>
+            <a href="article-thailand.html">Thailand</a>
+            <a href="article-southafrica.html">South Africa</a>
+            <a href="article-tokyo.html">Tokyo</a>
+        </nav>
+        <label class="theme-toggle">
+            <input type="checkbox" id="darkToggle">
+            Dark Mode
+        </label>
+    </header>
+
+    <div class="tagline-row">
+        <p class="site-tagline">Explore the world for you sanity sake</p>
+        <a class="primary-btn top-cta" href="#home-cta-title">Book a tour</a>
+    </div>
+
+    <main class="layout">
+
+        <section class="hero">
+            <article class="hero-main">
+                <a href="article-alps.html">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+                        alt="Snow-capped peaks and an alpine village in the Swiss Alps" title="Swiss Alps landscape">
+                    <h2>Exploring the Swiss Alps</h2>
+                </a>
+                <a class="hero-cta" href="article-alps.html#register-alps">Book a tour</a>
+            </article>
+
+            <article class="hero-side">
+                <a href="article-nigeria.html">
+                    <img src="https://images.unsplash.com/photo-1709403071665-47bbe085ec66" alt="Lagos city skyline"
+                        title="Lagos city skyline">
+                    <h3>Vibrant City of Lagos in Nigeria.</h3>
+                </a>
+                <a class="hero-cta" href="article-nigeria.html#register-lagos">Book a tour</a>
+            </article>
+
+            <article class="hero-side">
+                <a href="article-thailand.html">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                        alt="Turquoise ocean and a secluded Thai beach"
+                        title="Turquoise ocean and a secluded Thai beach">
+                    <h3>Hidden Beaches of Thailand</h3>
+                </a>
+                <a class="hero-cta" href="article-thailand.html#register-thailand">Book a tour</a>
+            </article>
+
+            <article class="hero-side">
+                <a href="article-southafrica.html">
+                    <img src="https://images.unsplash.com/photo-1547970810-dc1eac37d174"
+                        alt="Turquoise ocean and a secluded Thai beach"
+                        title="Turquoise ocean and a secluded Thai beach">
+                    <h3>Rhino day in South Africa</h3>
+                </a>
+                <a class="hero-cta" href="article-southafrica.html#register-southafrica">Book a tour</a>
+            </article>
+
+            <article class="hero-side">
+                <a href="article-tokyo.html">
+                    <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9"
+                        alt="Tokyo street food: takoyaki from a street vendor"
+                        title="Tokyo street food: takoyaki from a street vendor">
+                    <h3>Tokyo Street Food Guide</h3>
+                </a>
+                <a class="hero-cta" href="article-tokyo.html#register-tokyo">Book a tour</a>
+            </article>
+        </section>
+
+        <section class="home-cta" aria-labelledby="home-cta-title">
+            <h2 id="home-cta-title">Ready to book a tour?</h2>
+            <p>Pick your destination and jump straight to the secure registration form.</p>
+            <div class="cta-group">
+                <a class="primary-btn" href="article-alps.html#register-alps">Book the Alps</a>
+                <a class="primary-btn" href="article-nigeria.html#register-lagos">Book Lagos</a>
+                <a class="primary-btn" href="article-thailand.html#register-thailand">Book Thailand</a>
+                <a class="primary-btn" href="article-southafrica.html#register-southafrica">Book South Africa</a>
+                <a class="primary-btn" href="article-tokyo.html#register-tokyo">Book Tokyo</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Wanderlust Magazine</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
